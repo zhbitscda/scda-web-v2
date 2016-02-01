@@ -1,0 +1,8 @@
+create table scdatext(
+id int not null auto_increment,
+name varchar(30) not null,
+contact varchar(30) not null,
+texts text(2000) not null,
+time varchar(40) not null,
+ip varchar(30) not null,
+primary key(id));

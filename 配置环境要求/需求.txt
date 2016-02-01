@@ -1,0 +1,3 @@
+服务器：支持php5+mysql，linux操作系统
+wamp或lamp集成环境
+数据库基本操作环境：phpMyadmin

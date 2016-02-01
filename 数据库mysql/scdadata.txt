@@ -1,0 +1,6 @@
+create table scdadata(
+id int not null auto_increment,
+ip varchar(30) not null,
+time varchar(30) not null,
+num int(11) not null,
+primary key(id));

@@ -1,0 +1,604 @@
+/*
+ *	Design by 21 studio CEO hehuaqi
+ *	Date : 3-20-2012
+ *	Css for ZHBIT-SCDA
+ */
+ 
+body{
+	background-color:white;
+        text-align:justify;
+        margin:0;
+        padding:0;
+}
+#header{
+	width:100%;
+        height:75px;
+        background-color:black;
+        border-bottom:3px solid #CCCCCC;
+        margin:0 auto;
+}
+#menu{
+	width:930px;
+        height:70px;
+        margin:0 auto;
+        position:relative;
+        z-index:0;
+}
+#menu_logo{
+	width:60px;
+        height:60px;
+        background:url(image/logo.png) no-repeat left top;
+        position:absolute;
+        z-index:1;
+        left:20px;
+        top:5px;
+}
+#menu_word{
+	width:300px;
+        height:60px;
+        position:absolute;
+        z-index:1;
+        left:100px;
+        top:20px;
+        font-size:25px;
+        color:white;
+}
+#menu_bar{
+	width:400px;
+        height:60px;
+        position:absolute;
+        z-index:1;
+        left:460px;
+        top:5px;
+}
+.menu_atom{
+	font-size:15px;
+        position:absolute;
+        z-index:2;
+        left:1px;
+        top:-10px;
+}
+.menu_atom a{
+	color:white;
+        text-decoration:none;
+}
+.menu_atom a:hover{
+	color:white;
+	text-decoration:none;
+}
+.menu_atom li{
+	width:80px;
+        height:59px;
+        margin-right:5px;
+        float:left;
+}
+.menu_atom ul{
+	line-height:normal;
+        list-style:none;
+}
+#content{
+	width:100%;
+        height:220px;
+        background:white;
+}
+#content_inside{
+	width:930px;
+        height:auto;
+        margin:0 auto;
+        text-align:center;
+}
+
+/* middle */
+
+#middle{
+	width:100%;
+        height:350px;
+        background-color:white;
+        border-top:1px dotted #CCCCCC;
+}
+#middle_inside{
+	width:930px;
+        height:350px;
+        margin:0 auto;
+        position:relative;
+        z-index:0;
+}
+#middle_news{
+	width:200px;
+        height:30px;
+	position:absolute;
+        z-index:1;
+        left:10px;
+        top:10px;
+        color:#333333;
+        font-size:22px;
+        font-weight:bold;
+}
+#middle_news_content{
+	width:250px;
+        height:270px;
+        position:absolute;
+        z-index:1;
+        top:10px;
+        left:-25px;
+        font-size:18px;
+}
+#middle_news_content a{
+	width:200px;
+	color:#FF9900;
+        text-decoration:none;
+        background-color:white;
+        padding:5px 10px 5px 10px;
+        border-bottom:1px dotted #CCCCCC;
+}
+#middle_news_content a:hover{
+	color:#FF9900;
+        text-decoration:none;
+        background-color:#FFFFCC;
+}
+#middle_news_content li{
+	margin-bottom:15px;
+}
+#middle_news_content ul{
+	line-height:normal;
+}
+
+#middle_news_more{
+	width:100px;
+        height:35px;
+        position:absolute;
+        z-index:1;
+        top:280px;
+        left:100px;
+        font-size:12px;
+}
+#middle_news_more a{
+	color:#FF3300;
+	text-decoration:none;
+}
+#middle_news_more a:hover{
+	color:#FF9900;
+        text-decoration:underline;
+}
+#middle_right_box{
+	width:550px;
+        height:150px;
+        position:absolute;
+        z-index:1;
+        left:340px;
+        top:20px;
+        border:1px dotted #CCCCCC;
+}
+#middle_right_content{
+	width:550px;
+        height:180px;
+        position:absolute;
+        z-index:1;
+        left:340px;
+        top:180px;
+}
+.middle_right_content_styles{
+	padding:8px;
+        color:#006600;
+        font-size:12px;
+}
+.middle_right_content_styles a{
+	color:#FF9900;
+        text-decoration:underline;
+        font-size:12px;
+        margin-right:8px;
+}
+.middle_right_content_styles a:hover{
+	color:#FF9900;
+        text-decoration:none;
+}
+
+/* footer */
+
+#footer{
+	width:100%;
+        height:80px;
+        background-color:#333333;
+}
+#footer_inside{
+	width:930px;
+        height:78px;
+        margin:0 auto;
+        position:relative;
+        z-index:0;
+}
+#footer_left{
+	width:auto;
+        height:78px;
+        position:absolute;
+        z-index:1;
+        left:30px;
+        top:30px;
+        color:white;
+        font-size:14px;
+}
+#footer_right{
+	width:auto;
+        height:78px;
+        position:absolute;
+        z-index:1;
+        left:510px;
+        top:30px;
+        color:white;
+        font-size:14px;
+}
+#footer_right a{
+	text-decoration:underline;
+        color:#FF9900;
+}
+#footer_right a:hover{
+	text-decoration:none;
+        color:#FF9900;
+}
+
+
+/* about SCDA */
+#middle_about{
+	width:100%;
+        height:350px;
+        background-color:white;
+        border-top:1px dotted #CCCCCC;
+}
+#middle_about_inside{
+	width:930px;
+        height:330px;
+        margin:0 auto;
+        position:relative;
+        z-index:0;  
+}
+.middle_about_inside_style{
+	padding:10px;
+        color:#FFCC00;
+        font-size:14px;
+}
+.middle_about_inside_style a{
+	color:#00CCFF;
+        text-decoration:underline;
+}
+.middle_about_inside_style a:hover{
+	color:#009900;
+        text-decoration:none;
+}
+
+/* linkus */
+
+#content_link{
+	width:100%;
+        height:550px;
+        background:#FFFFCC;
+}
+#content_link_box{
+	width:620px;
+        height:10px;
+        margin:0 auto;
+}
+#content_link_inside{
+	width:620px;
+        height:530px;
+        background-color:white;
+        border:1px dotted #CCCCCC;
+        border-radius:10px;
+        margin:0 auto;
+}
+.content_link_title{
+	width:620px;
+        height:38px;
+	font-size:28px;
+        color:#0099CC;
+        font-weight:400;
+        padding-top:10px;
+        text-align:center;
+        border-bottom:1px dotted #CCCCCC;
+}
+.content_link_word_style{
+	text-align:center;
+        font-size:20px;
+        margin-bottom:15px;
+        color:#0099CC;
+}
+.content_link_bar{
+	width:200px;
+        height:20px;
+        border:1px solid #00CCFF;
+}
+.content_link_text{
+	width:330px;
+        height:210px;
+        border:1px solid #00CCFF;
+	color:#999999;
+        font-size:15px;
+        padding:5px;
+}
+.content_link_button{
+	width:80px;
+        height:35px;
+        background-color:#00CCFF;
+        color:white;
+        border:1px solid #00CCFF;
+        border-radius:10px;
+        cursor:pointer;
+}
+
+/* part */
+
+#middle_part{
+	width:100%;
+        height:400px;
+        background-color:white;
+        border-top:1px dotted #CCCCCC;
+}
+#middle_part_inside{
+	width:930px;
+        height:400px;
+        margin:0 auto;
+        position:relative;
+        z-index:0;
+}
+#middle_part_inside_logo{
+	width:200px;
+        height:45px;
+        font-size:35px;
+        color:#009900;
+        font-weight:500;
+        position:absolute;
+        z-index:1;
+        left:20px;
+        top:10px;
+}
+#middle_part_inside_introduce{
+	width:280px;
+        height:300px;
+        border-top:1px dotted #CCCCCC;
+        position:absolute;
+        z-index:1;
+        left:10px;
+        top:62px;
+}
+.middle_part_inside_introduce_style{
+	padding-top:5px;
+        color:#0099CC;
+        font-size:15px;
+}
+#middle_part_inside_bar{
+	width:550px;
+        height:180px;
+        border:1px dotted #CCCCCC;
+        position:absolute;
+        z-index:1;
+        left:350px;
+        top:20px;
+}
+#middle_part_right_content{
+	width:550px;
+        height:180px;
+        position:absolute;
+        z-index:1;
+        left:340px;
+        top:200px;
+}
+
+/* manager systems */
+
+#content_manager{
+	width:100%;
+        height:500px;
+        background:white;
+}
+#content_manager_inside{
+	width:930px;
+        height:500px;
+        margin:0 auto;
+        text-align:center;
+        position:relative;
+        z-index:0;
+}
+#content_manager_inside_box{
+	width:500px;
+        height:60px;
+        position:absolute;
+        z-index:1;
+        left:215px;
+        top:25px;
+        border-top:1px solid #00CCFF;
+        border-left:1px solid #00CCFF;
+        border-right:1px solid #00CCFF;
+        border-top-left-radius:15px;
+        border-top-right-radius:15px;
+        background-color:#FFCC00;
+}
+.content_manager_inside_box_title{
+	color:white;
+        font-size:20px;
+        width:auto;
+        height:auto;
+        position:absolute;
+        z-index:2;
+        left:20px;
+        top:20px;
+        font-weight:bold;
+}
+#content_manager_inside_main{
+	background-color:#FFFFCC;
+        width:500px;
+        height:320px;
+        border-left:1px solid #00CCFF;
+        border-right:1px solid #00CCFF;
+        position:absolute;
+        z-index:1;
+        left:215px;
+        top:85px;
+}
+.logout{
+	width:auto;
+        height:auto;
+	font-size:18px;
+        position:absolute;
+        z-index:2;
+        left:425px;
+        top:280px;
+}
+.logout a{
+	padding:5px 10px 5px 10px;
+        color:#CCCCCC;
+        border:1px solid #CCCCCC;
+        background-color:white;
+        text-decoration:none;
+}
+.logout a:hover{
+	background-color:#00CCFF;
+        color:white;
+        text-decoration:none;
+}
+#content_manager_inside_main_bottom{
+	width:480px;
+        height:100px;
+        border-top:1px dotted #CCCCCC;
+        position:absolute;
+        z-index:1;
+        left:10px;
+        top:170px;
+}
+.content_manager_inside_main_bottom_style{
+	font-size:12px;
+        padding-top:10px;
+}
+.content_manager_inside_main_bottom_style a{
+	color:#00CCFF;
+        text-decoration:underline;
+}
+.content_manager_inside_main_bottom_style a:hover{
+	color:#009900;
+        text-decoration:none;
+}
+.admin_style{
+	color:#0099CC;
+        font-size:18px;
+        margin-top:20px;
+}
+
+.admin_bar{
+	width:200px;
+        height:20px;
+        padding:2px 3px 2px 3px;
+        color:#999999;
+}
+#content_manager_inside_bottom{
+	width:500px;
+        height:60px;
+        position:absolute;
+        z-index:1;
+        left:215px;
+        top:405px;
+        border-bottom:1px solid #00CCFF;
+        border-left:1px solid #00CCFF;
+        border-right:1px solid #00CCFF;
+        border-bottom-left-radius:15px;
+        border-bottom-right-radius:15px;
+        background-color:#FFCC00;
+}
+
+/* news box */
+#news_box{
+	width:100%;
+        height:200px;
+        background-color:white;
+}
+#news_box_inside{
+	width:930px;
+        height:200px;
+        margin:0 auto;
+        position:relative;
+        z-index:0;
+        border-bottom:1px dotted #CCCCCC;
+}
+#news_box_inside_pic{
+	width:250px;
+        height:180px;
+        position:absolute;
+        z-index:1;
+        top:10px;
+        left:10px;
+        border:1px dotted #CCCCCC;
+}
+#news_box_inside_title{
+	width:150px;
+        height:30px;
+        color:#0099CC;
+        font-size:28px;
+        font-weight:bold;
+        position:absolute;
+        z-index:1;
+        top:8px;
+        left:270px;
+}
+#news_box_inside_time{
+	width:220px;
+        height:30px;
+        color:#CCCCCC;
+        font-size:12px;
+        position:absolute;
+        z-index:1;
+        top:19px;
+        left:425px;
+}
+#news_box_inside_content{
+	width:650px;
+        height:140px;
+        position:absolute;
+        z-index:1;
+        top:50px;
+        left:270px;
+}
+.news_box_inside_content_style{
+	color:#999999;
+        font-size:14px;
+        padding:2px;
+}
+
+/* manager deal */
+
+/*
+#content_manager_inside_main{
+	background-color:#FFFFCC;
+        width:500px;
+        height:320px;
+        border-left:1px solid #00CCFF;
+        border-right:1px solid #00CCFF;
+        position:absolute;
+        z-index:1;
+        left:215px;
+        top:85px;
+}
+*/
+
+.manager_deal_style{
+	font-size:16px;
+        color:#999999;
+        padding-top:10px;
+}
+.manager_deal_style a{
+	color:#00CCFF;
+        text-decoration:underline;
+}
+.manager_deal_style a:hover{
+	color:#009900;
+        text-decoration:none;
+}
+.part_button{
+	width:60px;
+        height:30px;
+        margin-top:10px;
+        border:1px solid #00CCFF;
+        cursor:pointer;
+}
+
+
+
+
+
+
